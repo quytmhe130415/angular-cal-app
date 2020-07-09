@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 0px;
+    font-size: 2em;
+    font-weight: bold;
+}
+.calculator{
+    background-color: rgb(243, 238, 231);
+    position: relative;
+    margin: 7% auto auto auto;
+    width: 400px;
+    text-align: center;
+    border-color: rgb(99, 94, 97);
+    border-radius: 20px;
+    box-shadow: inset 2px 0px 10px -5px rgb(109, 103, 106),
+                inset  -5px 0px 15px -5px rgb(109, 103, 106),
+                inset 10px 0px 10px -12px rgb(109, 103, 106),
+                inset -2px 0px 4px 2px rgb(109, 103, 106),
+                inset -2px 0px 10px 0px rgb(109, 103, 106),
+    }
+.result{
+    border-radius: 1px;
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    padding: 20px;
+    text-align: right;
+}
+
+button{
+    border-radius: 8px;
+    width: 80px;
+    height: 65px;
+    font-size: 20px;
+    border: 2px solid;
+    border-color:rgb(87, 85, 85);
+    margin: 2px 2px 8px 2px;
+    transition-duration: 0.4s;
+    box-shadow: inset 5px 0px 15px -5px rgb(109, 103, 106),
+                inset  -3px 0px 15px -5px rgb(109, 103, 106),
+                inset 0px -5px 0px -3px rgb(109, 103, 106),
+                inset 0px 0px 2px 2px rgb(109, 103, 106),
+                inset 0px 5px 15px 0px rgb(109, 103, 106),
+}
+.long{
+    width: 170px;
+}
+.responsive:hover{
+    background-color: rgb(138, 134, 134);
+    color: rgb(247, 240, 240);
+    box-shadow: Inset 5px 0px 15px -5px rgb( 199 , 192 , 182 ),
+                Inset -3px 0px 15px -5px rgb( 199 , 192 , 182 ),
+                Inset 0px -5px 0px -3px rgb( 199 , 192 , 182 ),
+                Inset 0px 0px 2px 2px rgb( 199 , 192 , 182 ),
+                Inset 0px 5px 15px 0px rgb( 199 , 192 , 182 ),
+    
+}
+.input{
+    
+    /* text-align: left; */
+    padding: 10px;
+    float: right;
+    font-size: 1.7rem;
+    outline: none;
+}
